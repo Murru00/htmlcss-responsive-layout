@@ -77,6 +77,7 @@ body{
     margin-right: -15px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     
 }
 
@@ -132,4 +133,27 @@ text-align: center;
     background-color: #9792e4;
     display: flex;
     height: 100px;
+}
+
+/* BENEFIT */
+
+#benefit{
+    background-color: #9792e4;
+    margin-top: 50px;
+}
+#benefit > h1{
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+
+
+#benefit > .container > .row > .col{
+    background-color: white;
+    width: calc(100% / 4);
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
 }
