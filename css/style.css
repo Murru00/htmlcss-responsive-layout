@@ -38,3 +38,23 @@ body{
     background-color: burlywood;
     padding: 2rem;
 }
+
+/*HEADER*/
+
+#header{
+    background-color: #0084fd;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+}
+
+
+
+
+/*MEDIA-MOBILE FIRST*/
+
+@media screen and (max-width: 480px){
+
+}
