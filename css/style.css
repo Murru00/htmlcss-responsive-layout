@@ -115,3 +115,21 @@ margin-top: 100px;
 #plan > .container > .row > .col > .card > .row{
     flex-direction: column;
 }
+
+
+/* EXPERT PARTNERS */
+
+#partners > .container{
+text-align: center;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.row-partners{
+    margin-top: 50px;
+    background-color: #9792e4;
+    display: flex;
+    height: 100px;
+}
