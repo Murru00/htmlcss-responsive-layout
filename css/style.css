@@ -28,7 +28,7 @@ body{
 /*UTILS*/
 
 .container{
-    max-width: 1080px;
+    max-width: 1140px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -44,17 +44,57 @@ body{
 #header{
     background-color: #0084fd;
     color: white;
+    width: 100%;
+}
+
+#header > .container{
     display: flex;
     justify-content: space-between;
-    height: 80px;
-    width: 100%;
+}
+
+#header > .container > .logo,
+#header > .container > .header-nav{
+    padding: 20px;
+    background-color: #b5ddff;
+}
+
+
+/*SECTION CARD (DEMO-APP)*/
+
+#demo-app > .container{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 50px;
 }
 
 
 
+.row{
+    margin-left: -15px;
+    margin-right: -15px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
 
-/*MEDIA-MOBILE FIRST*/
+.card{
+padding: 1rem;
+background-color: #b5ddff ;
+height: 100%;
+}
 
-@media screen and (max-width: 480px){
+#demo-app .col{
+    width: calc(100% / 3);
+}
 
+#demo-app .col:first-child{
+    width:calc(100% / 3 * 2);
+}
+
+.col{
+    padding: 15px;
+    
 }
