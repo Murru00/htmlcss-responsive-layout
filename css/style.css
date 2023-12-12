@@ -187,18 +187,48 @@ text-align: center;
     color: white;
     text-align: center;
     padding: 25px;
+    font-size: 40px;
+}
+
+#benefit  h2{
+    color: #9792e4;
+    font-size: 60px;
+}
+
+#benefit  h3{
+    color: #9792e4;
+    font-size: 20px;
+}
+
+#benefit p{
+    color: #9994e4;
+    font-size: 12px;
+}
+
+#benefit a{
+    color: white;
+    background-color: #9792e4;
+    font-size: 30px;
+    border-radius: 20px;
+    width: 220;
+    display: inline-block;
+    text-align: center;
 }
 
 
 
-#benefit > .container > .row > .col{
-    background-color: white;
-    width: calc(100% / 4);
-    
-    margin-left: auto;
-    margin-right: auto;
-    margin: 10px;
+ #benefit > .container > .row > .col {
+        background-color: white;
+        width: calc(100% / 4);
+        border-radius: 20px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        gap: 20px;
 }
+
+
 
 
 /* ABOUT */
