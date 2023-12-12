@@ -52,10 +52,14 @@ body{
     justify-content: space-between;
 }
 
+.header-nav{
+    font-size: 30px;
+}
+
 #header > .container > .logo,
 #header > .container > .header-nav{
     padding: 20px;
-    background-color: #b5ddff;
+    
 }
 
 
@@ -68,6 +72,42 @@ body{
     padding-left: 15px;
     padding-right: 15px;
     margin-top: 50px;
+}
+
+#demo-app i{
+font-size: 100px;
+color: #0084fd;
+margin-bottom: 20px;
+}
+
+#demo-app .card{
+    text-align: center;
+}
+
+#demo-app h3{
+    color: #0084fd;
+}
+
+#demo-app p{
+    color:#5a6e7f;
+}
+
+#demo-app a > i{
+    font-size: 20px;
+    color: white;
+    margin-top: 15px;
+    
+}
+
+#demo-app a{
+    background-color: #0084fd;
+    display: inline-block;
+    width: 200;
+    border-radius: 30px;
+}
+
+#demo-app .card{
+    border-radius: 40px;
 }
 
 
@@ -85,10 +125,12 @@ body{
 padding: 1rem;
 background-color: #b5ddff ;
 height: 100%;
+
 }
 
 #demo-app .col{
     width: calc(100% / 3);
+    
 }
 
 #demo-app .col:first-child{
