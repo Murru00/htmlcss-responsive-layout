@@ -146,7 +146,19 @@ height: 100%;
 
 #plan{
     background-color: #9792e4;
-    height: 300px;
+    height: 100%;
+}
+
+#plan .col{
+    width: 50%;
+}
+
+.planning-1{
+    width: 360px;
+}
+
+.planning-1{
+    width: 280px;
 }
 
 #plan > .container{
@@ -174,7 +186,46 @@ text-align: center;
     margin-top: 50px;
     background-color: #9792e4;
     display: flex;
-    height: 100px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+
+.row-partners > .col > img{
+    border-radius: 50%;
+    max-width: 100%;
+    height: 83;
+    width: 100;
+    object-fit: cover;
+}
+
+#partners p{
+    color: white;
+    font-size: 20px;
+}
+
+.row-partners .col{
+    text-align: center;
+  line-height: 2;
+}
+
+.row-partners span{
+    color: white;
+    display: flex;
+}
+
+
+#partners h3{
+    font-size: 13px;
+}
+
+#partners h1{
+    font-size: 40px;
+    color: #9792e4;
+}
+
+#partners > .container > .head-section > p{
+    color: #333333;
 }
 
 /* BENEFIT */
@@ -231,10 +282,17 @@ text-align: center;
 
 
 
+
 /* ABOUT */
 
 #about{
     height: 100%;
+}
+
+#about h2{
+    font-size: 50px;
+    color: #9994e4;
+    
 }
 
 #about > .container{
@@ -242,28 +300,112 @@ text-align: center;
 }
 .col-70{
     width: 70%;
-    background-color: red;
     height: 200px;
+    line-height: 2;
 }
 
 .col-30{
     width: 30%;
-    background-color: blue;
+    line-height: 2;
+    display: grid;
+    
 }
 
+#about p{
+    font-size: 20px;
+    
+}
 
+#about img{
+    border-radius: 50%;
+    height: 200;
+}
 
+#about span{
+    color: #9792e4;
+    font-size: 25px;
+}
+
+#about a{
+    color: white;
+    background-color: #9792e4;
+    width: 165;
+    text-align: center;
+    border-radius: 20px;
+}
 /* PRICING */
 
 #pricing{
     background-color: #9792e4;
-    height: 100%;
+    height: 450px;
     text-align: center;
+}
+
+#pricing .container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#pricing h4 {
+  color: white;
+  font-size: 10px;
+  margin-top: 80px;
+
+}
+
+#pricing h3 {
+  color: white;
+  font-size: 35px;
+}
+
+#pricing h2 {
+    font-size: 100px;
+  color: #fdc15f;
+}
+
+#pricing p{
+    color: white;
+  font-size: 13px;
+}
+
+
+#pricing a{
+  color: #9792e4;
+  background-color: white;
+  font-size: 30px;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40;
+  width: 240;
+  text-align: center;
+}
+
+#pricing span{
+    color: white;
+    font-size: 12px;
 }
 
 /*FOOTER*/
 
-footer{
+#footer{
     background-color: #333333;
+    height: 300px;
+}
+
+#footer .container{
     text-align: center;
 }
+
+#footer .container p {
+    color: white;
+    font-size: 15px;
+    padding: 3rem 20rem;
+}
+
+#link{
+    display: inline-block;
+}
+
+
